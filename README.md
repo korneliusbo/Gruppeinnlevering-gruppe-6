@@ -64,7 +64,14 @@ Partnerskapskontrakter er primært rettet mot de økonomiske og tekniske sidene 
 Å supplere tradisjonelle kontraktsrammer med relasjonelle kontrakter kan derfor være lurt i prosjektet, fordi det vil legge mer vekt på tillit, dialog og samarbeid. Dette kan være avgjørende for et godt samspill mellom enkelte i prosjektet, og prosjekteieren som har ledelsen over Erling igjen.
 
 ### 3.2 Relasjonelle kontrakter
+Prosjektlederen er gitt en del myndighet og ansvar, fra en større organisasjon. I dette tilfellet er det bystyret/kommunen. Det er viktig at Erling som prosjektleder har god dialog med prosjekteieren(bystyret) fra starten av. Grunnen er at gjennom god dialog kan han skaffe seg mer handlingsrom. Dette er også ofte regulert i en relasjonell kontrakt mellom prosjektleder og prosjekteier.  En god kontrakt og god kommunikasjon mellom prosjekteieren og Erling vil være med på å forebygge misnøye og konflikter i gruppen.
 
+Det er viktig at kontrakten inneholder rom for at endringer kan skje underveis, dette er et nyskapende prosjekt med risiko og da trengs det “slakk” i kontrakten siden prosjektet kan få ulike utfall. 
+I kontrakten som omhandler Erling sitt prosjekt burde det bli skrevet om hvordan samarbeidet mellom prosjekteieren og prosjektlederen skal foregå. For eksempel ha klare rammer på hva prosjektleder kan gjøre selv og hva som må godkjennes av prosjekteier. Den må inneholde realistiske avtaler som gir rom for justering dersom noe uventet skulle skje. Det kan for eksempel være at man prøver å overholde frister, men at det kommer noe i veien og at Erling da har rom til å justere prosjektet selv.
+
+Erling må ha tett dialog med prosjekteieren, og i dette tilfellet kan det være faste møter med jevne mellomrom for å følge opp prosjektet, dele informasjon og fange opp eventuelle utfordringer. Ofte er det også lurt å vite hvordan de skal håndtere konflikt seg i mellom, og hva slags informasjon som skal deles mellom ulike aktører i prosjektet.
+
+Relasjonelle kontrakter er altså viktig for Erling sitt prosjekt og andre prosjekter for å si noe om hvor styringen og kontrollen skal ligge, og hvordan partene skal forholde seg til hverandre, i tillegg til noe om konflikthåndtering.
 ## 4. Proaktive mekanismer for konflikthåndtering
 
 Det er ikke en hemmelighet at i løpet av arbeidsflyten kan forskjellige konflikter oppstå, særlig med tanke på tidspress og arbeidsstress. De er rundt åtte mennesker med forskjellig bakgrunn og derfor forskjellige syn på ting. Det er helt naturlig at meninger er annerledes, og konflikter er en viktig del av prosjektarbeidet. For eksempel vil representantene fra IT-avdelingen se på det tekniske der brukerrepresentantene tenker mer på funksjonene.
