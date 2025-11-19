@@ -172,4 +172,5 @@ if score == 6: # Høyeste sum. '==' må ha 6 poeng for å få høyest utfall.
 elif score >= 4: # Mellomliggende sum. '>=' må ha minst 4 poeng for å få middels utfall.
     print("Utfall: Du er en kompetent prosjektleder. Ditt team fungerer bra med rom for forbedring.")
 else: # Laveste sum. Alt under 4 poeng får laveste utfall.
+
     print("Utfall: Du har utfordringer som prosjektleder. Vurder å utvikle dine lederegenskaper for bedre teamdynamikk.")
