@@ -126,7 +126,7 @@ else:
     print("Du har valgt et ikke eksisterende alternativ. Start programmet på nytt.")
 
 # - - - - - - - - - - Avslutning - - - - - - - - - -
-print("Du har nå vært igjennom konfliktløsningsguiden, og har endt opp med en løsning til hver konflikt. Godt jobbet!")
+print("Du har nå vært igjennom konfliktløsningsguiden, og har endt opp med en avslutning til hver konflikt. Godt jobbet!")
 
 
 
