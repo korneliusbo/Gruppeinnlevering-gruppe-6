@@ -1,7 +1,13 @@
+# Innledning til oppgaven
 print("Du har fått oppgaven å lede et prosjekt for å utvikle en ny medborgerportal.")
 
+# Liste for tidslinje
 valg_tidslinje = {}
+
+# Poeng variabel
 poeng = 0
+
+
 
 def vis_tidslinje():
     if not valg_tidslinje:
@@ -13,6 +19,7 @@ def vis_tidslinje():
 
 def konflikt_silje_sivert():
     global poeng
+    #Skriv introduksjon til dilemma her
     print("\nKonflikt 1: Silje vs. Sivert")
     print(" 1. Holde et felles møte for å diskutere konflikten")
     print(" 2. Ha individuelle samtaler")
@@ -42,6 +49,7 @@ def konflikt_silje_sivert():
 
 def konflikt_hamdi_jabir():
     global poeng
+    #Introduksjon til dilemma her
     print("\nKonflikt 2: Hamdi vs. Jabir")
     print(" 1. La dem ordne opp selv")
     print(" 2. Ta en tydelig lederavgjørelse")
@@ -98,6 +106,8 @@ def motivasjon_teamet():
         else:
             print("Ugyldig valg. Velg 1, 2 eller 3.")
 
+
+#Avsluttning og resultat
 def sluttresultat():
     global poeng
     print("\nSLUTTRESULTAT:")
@@ -108,14 +118,19 @@ def sluttresultat():
     else:
         print("Prototypen ble levert, og teamet har tatt steget inn i norming-fasen.")
 
-    print("Takk for at du spilte!")
+    print("Takk for at du spillte!")
 
+#Introduksjon
 print("Velkommen til Prosjektleder-simulatoren!\n"
       "Her tar du valg som påvirker prosjektets fremgang og sluttresultat.\n"
       "Du kan når som helst vise tidslinjen for å se dine tidligere valg.\n")
 
+
+# Starten
 input("Trykk Enter for å starte...")
 
+
+# Rekkefølge på call til funksjoner
 konflikt_silje_sivert()
 konflikt_hamdi_jabir()
 motivasjon_teamet()
