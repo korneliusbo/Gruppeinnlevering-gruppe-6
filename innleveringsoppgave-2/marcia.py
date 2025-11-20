@@ -1,8 +1,8 @@
 import sys
 
-#- - - - - - - - - - Silje og Sivert konflikt - - - - - - - - - -
 print("Hei, velkommen til konfliktløsningsguiden!")
 
+#- - - - - - - - - - Silje og Sivert konflikt - - - - - - - - - -
 print("Du skal nå løse første konflikt som handler om at Silje og Sivert er uenige.")
 print("Du får nå tre hovedvalg, vennligst velg et hovedvalg ved å anngi 1, 2, eller 3:")
 print("1. Løse konflikten internt mellom personene det gjelder for å dempe stemningen i prosjektgruppen.")
@@ -26,7 +26,7 @@ elif valgt_hovedvalg == 3:
     print("b. Akseptere at konflikten eksisterer, og tenke at de er voksne nok til å løse den selv.")
 
 else: 
-    print("Beklager du har valgt et alernativ som ikke eksisterer. Programmet avluttes, og du må starte på nytt.")
+    print("Beklager du har valgt et alernativ som ikke eksisterer. Programmet fortsetter til Del 2.")
     sys.exit()
 
 valgt_alternativ = input("Anngi ditt alternativ: ")
@@ -41,7 +41,7 @@ elif (valgt_hovedvalg == 2 or valgt_hovedvalg == 3) and valgt_alternativ == "b":
     print("Konflikten løses delvis fordi gruppemedlemmene kan fortsette som normalt, men det er noe uoppgjort.")
 
 else: 
-    print("Du har valgt et ikke eksisterende alternativ. Start programmet på nytt.")
+    print("Du har valgt et ikke eksisterende alternativ. Programmet fortsetter til Del 2.")
 
 #- - - - - - - - - - Hamdi og Jabir konflikt - - - - - - - - - -
 print("Dette er del 2 av konfliktløsningsguiden. Du må forhindre at konflikten mellom Hamdi og Jabir blusser opp.")
@@ -67,7 +67,7 @@ elif valgt_hovedvalg == 3:
     print("b. Du setter av tid til et gruppemøte, for å innhente flere meninger.")
 
 else: 
-    print("Beklager du har valgt et alernativ som ikke eksisterer. Programmet avluttes, og du må starte på nytt.")
+    print("Beklager du har valgt et alernativ som ikke eksisterer. Programmet fortsetter til Del 3.")
     sys.exit()
 
 valgt_alternativ = input("Anngi ditt alternativ: ")
@@ -82,7 +82,7 @@ elif valgt_hovedvalg == 3 and (valgt_alternativ == "a" or valgt_alternativ == "b
     print("Du får innsyn fra flere teammedlemmer, som fører til at du klarer å løse konflikten.")
 
 else: 
-    print("Du har valgt et ikke eksisterende alternativ. Start programmet på nytt.")
+    print("Du har valgt et ikke eksisterende alternativ. Programmet fortsetter til Del 3.")
 
 #- - - - - - - - - - Teamet begynner å miste motivasjon - - - - - - - - - -
 print("Dette er del 3 av konfliktløsningsguiden. Teamet har begynt å miste motivasjon. Hva gjør du?")
@@ -126,7 +126,7 @@ else:
     print("Du har valgt et ikke eksisterende alternativ. Start programmet på nytt.")
 
 # - - - - - - - - - - Avslutning - - - - - - - - - -
-print("Du har nå vært igjennom konfliktløsningsguiden, og har endt opp med en løsning til hver konflikt. Godt jobbet!")
+print("Du har nå vært igjennom konfliktløsningsguiden, og har endt opp med en avslutning til hver konflikt. Godt jobbet!")
 
 
 
