@@ -9,6 +9,8 @@ valg_tidslinje = {}
 # Poeng variabel
 poeng = 0
 
+# Variabler for introduksjon av konflikter
+intro_ss = "\nI uke 1 oppstår det en konflikt mellom Silje og Sivert. "
 
 # Funksjon for å vise tidslinje over tidligere valg
 def vis_tidslinje():
@@ -24,23 +26,27 @@ def vis_tidslinje():
 
 print("-------------------------------------------------")
 
-#Introduksjon
+
 print("\33[1mVelkommen til Prosjektleder-simulatoren!\33[0m\n" # \33[1m = Starter bold text || \33[0m = Avslutter bold text
       "\nDu har fått oppgaven å lede et prosjekt for å utvikle en ny medborgerportal."
       "Her tar du valg som påvirker prosjektets fremgang og sluttresultat.\n"
-      "Du kan når som helst vise tidslinjen for å se dine tidligere valg.\n")
+      "Du kan også vise tidslinjen for å se dine tidligere valg.\n")
 
-# Starten
+
+# Starter interaktiv historie
 input("Trykk Enter for å starte...")
 
 
-# ~~~~~~ Valg: Konflikt mellom Silje og Sivert ~~~~~~
-# Konflikt 1: Silje vs. Sivert
+# ~~~~~~ 1.Valg: Konflikt mellom Silje og Sivert ~~~~~~
+
 def konflikt_silje_sivert():
     global poeng
-    #Skriv introduksjon til dilemma her
+   # global gjør at vi kan nå variabelen utenfor funksjonen og endre den i funksjonen
+
+   #Introduksjon til dilemma
     print("-------------------------------------------------")
     print("\33[1m\nKonflikt 1: \n Silje vs. Sivert\33[0m")
+
     print(" 1. Holde et felles møte for å diskutere konflikten")
     print(" 2. Ha individuelle samtaler")
     print(" 3. Ignorere situasjonen og håpe den løser seg selv")
@@ -68,12 +74,11 @@ def konflikt_silje_sivert():
             print("     \33[1m\nUgyldig valg. Prøv på nytt: \33[0m") # While-løkken gjør mulig for bruker å prøve på nytt uten å starte koden på nytt.
 
 
-# ~~~~~~ Valg: Motivasjonsproblemer ~~~~~~
+# ~~~~~~ 2.Valg: Hamdi vs Jabir ~~~~~~
 
-# Konflikt 2: Hamdi vs. Jabir
 def konflikt_hamdi_jabir():
     global poeng
-    #Introduksjon til dilemma her
+    #Introduksjon til dilemma
     print("-------------------------------------------------")
     print("\33[1m\nKonflikt 2:\n Hamdi vs. Jabir\33[0m")
     print(" 1. La dem ordne opp selv")
@@ -104,9 +109,8 @@ def konflikt_hamdi_jabir():
 
 
 
-# ~~~~~~ Valg: Motivasjon i teamet ~~~~~~
+# ~~~~~~ 3. Valg: Motivasjon i teamet ~~~~~~
 
-# Konflikt 3: Motivasjon i teamet
 def motivasjon_teamet():
     global poeng
     print("-------------------------------------------------")
@@ -142,20 +146,19 @@ def motivasjon_teamet():
 
 # ~~~~~~ Resultat + Utfall ~~~~~~
 
-# Avsluttning og resultat
 def sluttresultat():
     global poeng
     print("-------------------------------------------------")
     print("\n\33[1mSLUTTRESULTAT:\33[0m")
     if poeng <= 3:
-        print("Prototypen ble ikke levert. Prosjektet endte i store utfordringer.")
-        # print("Utfall: Du trenger å utvikle dine ferdigheter som prosjektleder.")
+        print("Utfall: Prototypen ble ikke levert. Prosjektet endte i store utfordringer.")
+        print("Du trenger å utvikle dine ferdigheter som prosjektleder.")
     elif 4 <= poeng <= 6:
-        print("Prototypen ble levert, men teamet befinner seg fortsatt i storming-fasen.")
-        # print("Utfall: Du er en kompetent prosjektleder. Ditt team fungerer bra med rom for forbedring.")
+        print("Utfall: Prototypen ble levert, men teamet befinner seg fortsatt i storming-fasen.")
+        print("Du er en kompetent prosjektleder. Ditt team klarer seg, men det er rom for forbedring.")
     else:
-        print("Prototypen ble levert, og teamet har tatt steget inn i norming-fasen.")
-        # print("Utfall: Du er en eksepsjonell prosjektleder! Ditt team trives og leverer over forventning.")
+        print("Utfall: Prototypen ble levert, og teamet har tatt steget inn i norming-fasen.")
+        print("Du er en eksepsjonell prosjektleder! Ditt team trives og leverer over forventning.")
 
     print("\nTakk for at du spillte!")
 
